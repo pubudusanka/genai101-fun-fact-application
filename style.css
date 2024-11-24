@@ -1,0 +1,61 @@
+/* Keep existing CSS and add these new styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f4f4f4;
+  margin-bottom: 2rem;
+}
+
+.content {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+#factDisplay {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f4f4f4;
+  margin-top: 2rem;
+}
